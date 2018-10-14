@@ -1,0 +1,33 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Setting RSS/Atom</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.simplerss.url>
+                        <TCEforms>
+                            <label>Feed URL</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                            </config>
+                        </TCEforms>
+                    </settings.simplerss.url>
+                    <settings.simplerss.dateformat>
+                        <TCEforms>
+                            <label>Date format</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <value>Y-m-d H:i:s</value>
+                            </config>
+                        </TCEforms>
+                    </settings.simplerss.dateformat>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

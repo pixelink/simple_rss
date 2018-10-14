@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-10-14T09:28:28Z" product-name="simple_rss">
+		<header/>
+		<body>
+			<trans-unit id="tx_simple_rss_rssfeed.name">
+				<source>RSS Reader</source>
+			</trans-unit>
+			<trans-unit id="tx_simple_rss_rssfeed.description">
+				<source>Shows RSS/Atom Feed</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

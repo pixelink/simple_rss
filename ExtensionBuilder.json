@@ -1,0 +1,50 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Read RSS and Atom Feeds. Based on Simple Pie Package",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.1-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "simple_rss",
+        "name": "Simple RSS\/Atom Reader",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Pixel Ink",
+                "email": "b.riezler@pixel-ink.de",
+                "name": "Benjamin Riezler",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Rss => showFeed",
+                    "noncacheableActions": "Rss => showFeed",
+                    "switchableActions": ""
+                },
+                "description": "Shows RSS\/Atom Feed",
+                "key": "rssfeed",
+                "name": "RSS Reader"
+            }
+        ],
+        "vendorName": "Pixelink"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-10-14 09:28",
+        "extension_builder_version": "9.10.0",
+        "be_user": " (1)"
+    }
+}

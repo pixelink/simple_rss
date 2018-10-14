@@ -1,0 +1,28 @@
+{
+    "name": "pixelink/simple-rss",
+    "type": "typo3-cms-extension",
+    "description": "Read RSS and Atom Feeds. Based on Simple Pie Package",
+    "authors": [
+        {
+            "name": "Benjamin Riezler",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pixelink\\SimpleRss\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pixelink\\SimpleRss\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "simple_rss": "self.version",
+        "typo3-ter/simple-rss": "self.version"
+    }
+}
