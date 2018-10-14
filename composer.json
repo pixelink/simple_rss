@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "typo3/cms-core": "^8.7.1|| ^9.5.0"
+        "typo3/cms-core": "^8.7.1|| ^9.5.0",
+        "simplepie/simplepie": "dev-master"
     },
     "autoload": {
         "psr-4": {
