@@ -25,5 +25,6 @@
     "replace": {
         "simple_rss": "self.version",
         "typo3-ter/simple-rss": "self.version"
-    }
+    },
+    "minimum-stability": "dev"
 }
