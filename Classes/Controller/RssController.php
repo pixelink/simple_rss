@@ -35,8 +35,9 @@ class RssController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 
         $feed = $this->settings['simplerss']['url'];
         $dateFormat = $this->settings['simplerss']['dateformat'];
+        $limit = $this->settings['simplerss']['limit'];
 
-        $entries = $this->rssRepository->getItems($feed, $dateFormat);
+        $entries = $this->rssRepository->getItems($feed, $limit, $dateFormat);
 
         $this->view->assign('entries', $entries);
 

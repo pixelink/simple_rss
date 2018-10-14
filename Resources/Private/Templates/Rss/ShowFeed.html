@@ -1,22 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Show Feed</title>
-</head>
-<body>
 <ul class="blog-list">
     <f:for each="{entries}" as="entry">
-        <f:debug title="">{entry}</f:debug>
-        <f:if condition="{entry.link}">
-            <f:then>
+        <li>
+            <f:if condition="{entry.link}">
+                <f:then>
                     <f:link.external uri="{entry.link}" target="_blank">{entry.title}</f:link.external>
-            </f:then>
-            <f:else>
-                {entry.title}
-            </f:else>
-        </f:if>
+                </f:then>
+                <f:else>
+                    {entry.title}
+                </f:else>
+            </f:if>
+        </li>
     </f:for>
 </ul>
-</body>
-</html>
+

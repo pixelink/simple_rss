@@ -26,6 +26,16 @@
                             </config>
                         </TCEforms>
                     </settings.simplerss.dateformat>
+                    <settings.simplerss.limit>
+                        <TCEforms>
+                            <label>Limit to n entries</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>int</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.simplerss.limit>
                 </el>
             </ROOT>
         </sDEF>

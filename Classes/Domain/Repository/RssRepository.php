@@ -46,14 +46,13 @@ class RssRepository
 
     }
 
-    public function getItems($url, $dateFormat) {
+    public function getItems($url, $limit, $dateFormat) {
 
         $this->getFeed($url);
-        $items = $this->feed->get_items(0,0);
+        $items = $this->feed->get_items(0,$limit);
 
         $feedItem = array();
         $feedCount = 0;
-
 
         foreach ($items as $item) {
 
