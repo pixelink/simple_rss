@@ -19,6 +19,7 @@ class RssRepository
     public function __construct()
     {
         $this->feed = GeneralUtility::makeInstance(SimplePie::class);
+        $this->feed->set_cache_location(PATH_site . '/typo3temp/simplepie');
     }
 
     public function getFeed($url) {
